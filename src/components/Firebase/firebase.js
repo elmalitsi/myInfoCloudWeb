@@ -4,16 +4,8 @@ import 'firebase/auth';
 import 'firebase/database';
 
 
-// intialize firebase
+// intialize firebase add info here
 var firebaseConfig = {
-  apiKey: "AIzaSyAUMEDobnJRekYsP0RkCqcI-wq0lf9Iut8",
-  authDomain: "myinfo-cloud.app.com",
-  databaseURL: "https://myinfo-cloud.firebaseio.com",
-  projectId: "myinfo-cloud",
-  storageBucket: "myinfo-cloud.appspot.com",
-  messagingSenderId: "283875174607",
-  appId: "1:283875174607:web:b72967e788491f5dee6fba",
-  measurementId: "G-7NNY87CHLT"
 };
 // Initialize Firebase
 
