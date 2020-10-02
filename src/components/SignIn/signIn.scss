@@ -1,0 +1,200 @@
+.container{
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 40px;
+    color: #3f51b5;
+}
+
+.margin-bottom-15{
+    margin: 0 0 15px 0;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.form {
+    max-width: 600px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 26px -18px rgbaa(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -18px rgbaa(0,0,0,0.75);
+    box-shadow: 10px 10px 26px -18px rgbaa(0,0,0,0.75);
+}
+
+.input {
+    width: 100%;
+    margin: 10px 0!important;
+    input{
+        padding: 17px;
+        background-color: white!important;
+    }
+}
+
+.btn.btn-primary{
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    min-width: 250px;
+}
+
+.nav-links{
+    color: white!important;
+    font-size: 20px!important;
+    font-weight: 500!important;
+    text-decoration: none!important;
+    margin-left: 20px!important;
+    cursor: pointer!important;
+}
+
+.margin-top-20{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.active{
+    background-color: #3f51b533 !important;
+}
+
+.hide{
+    display: none;
+}
+
+.MuiAvatar-colorDefault{
+    color: #321c92!important;
+    background-color: white!important;
+    border: 1px solid black;
+}
+
+.note-dialog .MuiPaper-root{
+    min-width: 200px!important;
+    min-height: 200px!important;
+    padding: 30px;
+        /* width: 16em; */
+        min-height: 14em;
+        background: #deedff;
+        border: solid 2px #005ca5;
+        position: relative;
+        /* filter: drop-shadow(1px 1px 5px red); */
+        transform: rotate(0deg);
+        min-height: 150px!important;
+        /* color: white; */
+        min-width: 140px!important;
+}
+
+svg.close-icon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+}
+
+.MuiAppBar-colorPrimary{
+    background-color: #321c92!important;
+}
+
+
+.container-404{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+
+.number{
+    font-size: 100px;
+}
+
+.text-404{
+    margin-bottom: 20px;
+}
+
+/*lists*/
+.flex-list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.item-left{
+    flex: 6;
+}
+
+.item-right{
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+}
+
+.contact-name {
+    font-weight: 600;
+    color: #321c92;
+}
+
+.dialog{
+    min-width: 200px;
+    min-height: 400px;
+    max-width: 300px;
+}
+
+.top-section{
+    min-height: 140px;
+    text-align: center;
+    background-color: #321c92;
+    color: white;
+    position: relative;
+}
+
+.top-info-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+
+.bottom-section{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    .call-number{
+        flex: 6;
+    }
+    .call-info{
+        flex: 1;
+        text-align: center;
+    }
+    .more-info{
+        width: 100%;
+        padding: 5px 0;
+    }
+}
+
+.dialog-label{
+    color: #f36a82;
+    font-size: 14;
+    font-weight: 500;
+}
+
+.dialog-info{
+    font-size: 12px;
+    color: #a2a2a2;
+}
+
+.clear-search{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
